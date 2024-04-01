@@ -1,0 +1,12 @@
+const fs = require('fs');
+const input = fs.readFileSync(0).toString();
+
+const n = parseInt(input);
+
+if (n >= 3000) {
+    console.log('book');
+} else if (n >= 1000) {
+    console.log('mask');
+} else {
+    console.log('no')
+}
